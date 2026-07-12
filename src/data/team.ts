@@ -39,7 +39,7 @@ export const teamMembers: TeamMember[] = [
       'GST Matters',
       'Cyber Law',
     ],
-    photo: '/images/team/vishnu-kanth.png',
+    photo: `${import.meta.env.BASE_URL}images/team/vishnu-kanth.png`,
   },
   {
     id: 'viveghaa-shri',
@@ -48,6 +48,6 @@ export const teamMembers: TeamMember[] = [
     qualification: 'B.B.A., LL.B., LL.M.',
     barCouncil: 'Madurai Bench of Madras High Court',
     courts: ['Madurai Bench of Madras High Court'],
-    photo: '/images/team/viveghaa-shri.png',
+    photo: `${import.meta.env.BASE_URL}images/team/viveghaa-shri.png`,
   },
 ];
