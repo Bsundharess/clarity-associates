@@ -1,0 +1,47 @@
+{
+  "name": "clarity-associates",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Clarity Associates — Advocates, Madurai Bench of Madras High Court. Informational website.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "dependencies": {
+    "framer-motion": "^11.11.17",
+    "lucide-react": "^0.462.0",
+    "react": "^19.0.0",
+    "react-countup": "^6.5.3",
+    "react-dom": "^19.0.0",
+    "react-helmet-async": "^2.0.5",
+    "react-router-dom": "^6.28.0",
+    "swiper": "^11.1.15"
+  },
+  "overrides": {
+    "react-helmet-async": {
+      "react": "$react"
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "@eslint/js": "^9.15.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.15.0",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.14",
+    "gh-pages": "^6.2.0",
+    "globals": "^15.12.0",
+    "typescript-eslint": "^8.15.0",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15",
+    "typescript": "^5.6.3",
+    "vite": "^6.0.1"
+  }
+}

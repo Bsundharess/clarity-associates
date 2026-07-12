@@ -1,0 +1,17 @@
+{
+  "name": "Clarity Associates",
+  "short_name": "Clarity Associates",
+  "description": "Informational website of Clarity Associates, Advocates, Madurai Bench of Madras High Court.",
+  "start_url": "/clarity-associates/",
+  "scope": "/clarity-associates/",
+  "display": "standalone",
+  "background_color": "#F9F8F4",
+  "theme_color": "#0B0B0B",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
