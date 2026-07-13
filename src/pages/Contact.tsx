@@ -9,11 +9,7 @@ export default function Contact() {
     <>
       <SEO
         title="Contact"
-        description="Contact details for Clarity Associates, 
-        No. 4,
-        Keela Ratha Veethi,
-        Thiruparankundram,
-        Madurai – 625005"
+        description="Contact details for Clarity Associates, Chamber No. 58, High Court Building, Madurai Bench of Madras High Court, Madurai."
         path="/contact"
       />
       <PageHeader
