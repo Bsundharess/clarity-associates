@@ -21,7 +21,6 @@ export default function Hero() {
     >
       {/* Background */}
       <motion.div style={{ y }} className="absolute inset-0">
-
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
@@ -33,33 +32,32 @@ export default function Hero() {
         <div className="absolute inset-0 bg-black/75" />
 
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/40 to-black" />
-
       </motion.div>
 
       {/* Content */}
       <motion.div
         style={{ opacity }}
-        className="relative z-10 h-full flex flex-col items-center justify-center text-center px-6"
+        className="relative z-10 flex h-full flex-col items-center justify-center px-6 text-center"
       >
         {/* Logo */}
         <motion.div
-          initial={{ opacity: 0, y: -25, scale: 0.9 }}
+          initial={{ opacity: 0, y: -20, scale: 0.95 }}
           animate={{ opacity: 1, y: 0, scale: 1 }}
           transition={{
             duration: 1.2,
             ease: [0.16, 1, 0.3, 1],
           }}
-          className="relative mb-10 flex items-center justify-center"
+          className="relative mb-8 mt-10 flex items-center justify-center"
         >
-          {/* Gold Glow */}
-          <div className="absolute h-72 w-72 rounded-full bg-gold/10 blur-[120px]" />
+          {/* Smaller Premium Glow */}
+          <div className="absolute h-48 w-48 rounded-full bg-gold/8 blur-[90px]" />
 
           <motion.img
             src={`${import.meta.env.BASE_URL}images/Logo.png`}
             alt="Clarity Associates"
-            className="relative w-48 md:w-60 lg:w-72 object-contain drop-shadow-[0_0_35px_rgba(212,175,55,0.25)]"
+            className="relative w-28 md:w-36 lg:w-44 object-contain drop-shadow-[0_0_25px_rgba(212,175,55,0.20)]"
             animate={{
-              y: [0, -8, 0],
+              y: [0, -6, 0],
             }}
             transition={{
               duration: 5,
@@ -77,7 +75,7 @@ export default function Hero() {
             duration: 0.8,
             delay: 0.25,
           }}
-          className="uppercase tracking-[0.45em] text-gold text-xs md:text-sm mb-6"
+          className="mb-5 uppercase tracking-[0.45em] text-gold text-xs md:text-sm"
         >
           Advocates • Madurai Bench of Madras High Court
         </motion.p>
@@ -104,7 +102,7 @@ export default function Hero() {
             duration: 0.9,
             delay: 0.65,
           }}
-          className="mt-8 font-sub italic text-gold-light text-2xl md:text-4xl"
+          className="mt-6 font-sub italic text-gold-light text-xl md:text-3xl"
         >
           {siteConfig.tagline}
         </motion.p>
@@ -117,7 +115,7 @@ export default function Hero() {
             duration: 0.9,
             delay: 0.85,
           }}
-          className="mt-8 max-w-3xl text-white/75 text-base md:text-lg leading-9"
+          className="mt-8 max-w-2xl text-white/75 text-base md:text-lg leading-8"
         >
           A chamber of advocates providing informed, principled legal
           representation before the Madurai Bench of the Madras High Court,
@@ -133,7 +131,7 @@ export default function Hero() {
             duration: 0.9,
             delay: 1.05,
           }}
-          className="mt-12 flex flex-col sm:flex-row gap-5"
+          className="mt-10 flex flex-col gap-5 sm:flex-row"
         >
           <Link
             to="/contact"
@@ -161,9 +159,9 @@ export default function Hero() {
           delay: 1.6,
           duration: 1,
         }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center"
+        className="absolute bottom-8 left-1/2 z-20 flex -translate-x-1/2 flex-col items-center"
       >
-        <span className="uppercase tracking-[0.4em] text-[10px] text-white/40 mb-3">
+        <span className="mb-3 text-[10px] uppercase tracking-[0.4em] text-white/40">
           Scroll
         </span>
 
