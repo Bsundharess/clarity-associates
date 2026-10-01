@@ -18,7 +18,6 @@ export const teamMembers: TeamMember[] = [
     name: 'Adv. Vishnu Kanth S',
     designation: 'Advocate',
     qualification: 'B.Com., LL.B.',
-    enrollment: 'Ms.7906/2022',
     barCouncil: 'Bar Council of Tamil Nadu & Puducherry',
     experience: 'Practicing since 2022',
     languages: ['English', 'Tamil'],
